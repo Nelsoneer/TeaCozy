@@ -63,11 +63,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  background-size: cover;
-  background-position: top;
   width: 100%;
+}
+
+#mission {
   height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
 }
 
 .mission-content {
@@ -95,7 +97,10 @@ h4 {
   flex-direction: column;
   width: 1000px;
   height: auto;
-  margin-top: 69px;
+}
+
+#featured-tea {
+  padding-top: 69px;
 }
 
 .tea-content {
@@ -146,13 +151,15 @@ h4 {
 .locations-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-image: url("../images/img-locations-background.jpg");
-  background-position: top;
-  background-size: cover;
+  align-items: center;
   height: 500px;
   width: 100%;
   margin-top: 70px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
 }
 
 .locations {
